@@ -1,0 +1,159 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+#03a9f4
+    Created on : 23 Feb, 2021, 2:55:58 AM
+    Author     : user
+*/
+
+.dropdown
+{
+    margin: 0 auto;
+}
+nav{
+    height:60px;
+    background: #03a9f4;
+    box-shadow:  0 10px 15px rgba(0,0,0,1);
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-right: 100px;      
+}
+nav ul li{
+
+    background: #03a9f4;
+    position: relative;
+    list-style: none;
+    display: inline-block
+    
+}
+nav ul li a{
+    font-size: 15px;
+    display: block;
+    
+    padding: 0 15px;
+    color: white;
+    text-decoration: none;
+    line-height: 60px;
+    
+}
+
+nav ul li a:hover
+{
+   background-color:#2f4f4f;
+  
+color:#fff;
+color: red;
+}
+nav ul ul{
+    position: absolute;
+    tab:60px;
+    display: none;
+}
+
+nav ul li:hover > ul
+{
+    display: block;
+}
+nav ul ul li{
+    width: 180px;
+    float: none;
+    display: list-item;
+    position: relative;
+    
+}
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+body{
+   
+}
+.box{
+    width: 450px;
+     
+    margin-left: 480px;
+   margin-top: 100px;
+    
+     border-bottom: 20px solid #03a9f4;
+     border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+   
+}
+
+
+.box h2
+{
+    color: #fff;
+    background: #03a9f4;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.box ul
+{
+    position: relative;
+    background: #fff;
+}
+.box ul:hover li
+{
+    opacity:0.2;
+}
+.box ul li
+{
+    list-style: none;
+    padding: 15px;
+    width: 100%;
+    
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,1);
+    transition: trabsform 0.5s;
+    
+}
+
+
+.box ul li:hover
+{
+    transform: scale(1.1);
+    z-index: 100;
+    background: #25bcff;
+    box-shadow:  0 5px 25px rgbs(0,0,0,2);
+    color: #fff;
+    opacity: 1;
+}
+
+.box ul li span
+{
+    width: 20px;
+    height:20px ;
+    text-align:center ;
+    line-height: 20px;
+    background: #25bcff;
+    color: #fff;
+    display:inline-block ;
+    border-radius: 50px;
+    margin-right: 10px;
+    font-size: 12px;
+    font-weight: 600;
+     transform: translateY(-2px);   
+}
+
+.box ul li:hover span
+{
+   background: #fff;
+   color: #25bcff;
+}
